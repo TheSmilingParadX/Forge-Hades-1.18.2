@@ -1,0 +1,242 @@
+{
+  "no_escape": {
+    "sounds": [
+      {
+        "name": "hadesmod:no_escape",
+        "stream": true
+      }
+    ]
+  },
+  "house_of_hades": {
+    "sounds": [
+      {
+        "name": "hadesmod:house_of_hades",
+        "stream": true
+      }
+    ]
+  },
+  "out_of_tartarus": {
+    "sounds": [
+      {
+        "name": "hadesmod:out_of_tartarus",
+        "stream": true
+      }
+    ]
+  },
+  "wretched_shades": {
+    "sounds": [
+      {
+        "name": "hadesmod:wretched_shades",
+        "stream": true
+      }
+    ]
+  },
+  "lament_of_orpheus": {
+    "sounds": [
+      {
+        "name": "hadesmod:lament_of_orpheus",
+        "stream": true
+      }
+    ]
+  },
+  "the_painful_way": {
+    "sounds": [
+      {
+        "name": "hadesmod:the_painful_way",
+        "stream": true
+      }
+    ]
+  },
+  "from_olympus": {
+    "sounds": [
+      {
+        "name": "hadesmod:from_olympus",
+        "stream": true
+      }
+    ]
+  },
+  "through_asphodel": {
+    "sounds": [
+      {
+        "name": "hadesmod:through_asphodel",
+        "stream": true
+      }
+    ]
+  },
+  "eurydice_solo": {
+    "sounds": [
+      {
+        "name": "hadesmod:eurydice_solo",
+        "stream": true
+      }
+    ]
+  },
+  "final_expense": {
+    "sounds": [
+      {
+        "name": "hadesmod:final_expense",
+        "stream": true
+      }
+    ]
+  },
+  "mouth_of_styx": {
+    "sounds": [
+      {
+        "name": "hadesmod:mouth_of_styx",
+        "stream": true
+      }
+    ]
+  },
+  "primordial_chaos": {
+    "sounds": [
+      {
+        "name": "hadesmod:primordial_chaos",
+        "stream": true
+      }
+    ]
+  },
+  "the_bloodless": {
+    "sounds": [
+      {
+        "name": "hadesmod:the_bloodless",
+        "stream": true
+      }
+    ]
+  },
+  "scourge_of_the_furies": {
+    "sounds": [
+      {
+        "name": "hadesmod:scourge_of_the_furies",
+        "stream": true
+      }
+    ]
+  },
+  "hymn_to_zagreus": {
+    "sounds": [
+      {
+        "name": "hadesmod:hymn_to_zagreus",
+        "stream": true
+      }
+    ]
+  },
+  "field_of_souls": {
+    "sounds": [
+      {
+        "name": "hadesmod:field_of_souls",
+        "stream": true
+      }
+    ]
+  },
+  "river_of_flame": {
+    "sounds": [
+      {
+        "name": "hadesmod:river_of_flame",
+        "stream": true
+      }
+    ]
+  },
+  "death_and_i": {
+    "sounds": [
+      {
+        "name": "hadesmod:death_and_i",
+        "stream": true
+      }
+    ]
+  },
+  "rage_of_the_myrmidons": {
+    "sounds": [
+      {
+        "name": "hadesmod:rage_of_the_myrmidons",
+        "stream": true
+      }
+    ]
+  },
+  "the_exalted": {
+    "sounds": [
+      {
+        "name": "hadesmod:the_exalted",
+        "stream": true
+      }
+    ]
+  },
+  "last_words": {
+    "sounds": [
+      {
+        "name": "hadesmod:last_words",
+        "stream": true
+      }
+    ]
+  },
+  "king_and_bull": {
+    "sounds": [
+      {
+        "name": "hadesmod:king_and_bull",
+        "stream": true
+      }
+    ]
+  },
+  "underworld_mix": {
+    "sounds": [
+      {
+        "name": "hadesmod:underworld_mix",
+        "stream": true
+      }
+    ]
+  },
+  "gates_of_hell": {
+    "sounds": [
+      {
+        "name": "hadesmod:gates_of_hell",
+        "stream": true
+      }
+    ]
+  },
+  "god_of_the_dead": {
+    "sounds": [
+      {
+        "name": "hadesmod:god_of_the_dead",
+        "stream": true
+      }
+    ]
+  },
+  "payback_mix": {
+    "sounds": [
+      {
+        "name": "hadesmod:payback_mix",
+        "stream": true
+      }
+    ]
+  },
+  "on_the_coast": {
+    "sounds": [
+      {
+        "name": "hadesmod:on_the_coast",
+        "stream": true
+      }
+    ]
+  },
+  "in_the_blood": {
+    "sounds": [
+      {
+        "name": "hadesmod:in_the_blood",
+        "stream": true
+      }
+    ]
+  },
+  "the_unseen_ones": {
+    "sounds": [
+      {
+        "name": "hadesmod:the_unseen_ones",
+        "stream": true
+      }
+    ]
+  },
+  "good_riddance": {
+    "sounds": [
+      {
+        "name": "hadesmod:good_riddance",
+        "stream": true
+      }
+    ]
+  }
+}

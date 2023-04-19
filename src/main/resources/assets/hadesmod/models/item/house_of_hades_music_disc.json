@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hadesmod:item/house_of_hades_music_disc"
+  }
+}
