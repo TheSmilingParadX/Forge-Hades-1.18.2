@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "hadesmod:block/hermes_boon", "y": 180},
+    "facing=east": { "model": "hadesmod:block/hermes_boon", "y": 270},
+    "facing=south": { "model": "hadesmod:block/hermes_boon"},
+    "facing=west": { "model": "hadesmod:block/hermes_boon", "y": 90}
+  }
+}

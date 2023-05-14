@@ -1,5 +1,16 @@
 {
+  "item.hadesmod.chthonic_key": "Chthonic Key",
   "item.hadesmod.darkness": "Darkness",
+  "item.hadesmod.gemstones": "Gemstones",
+  "item.hadesmod.nectar": "Nectar",
+
+  "item.hadesmod.stygius": "Stygian Blade", "item.hadesmod.stygius.desc": "Stygius, the Blade of the Underworld",
+
+  "block.hadesmod.hermes_boon": "Hermes Boon Reward",
+
+
+  "item.hadesmod.food": "Food",
+  "item.hadesmod.red_onion": "Red Onion",
 
   "item.hadesmod.no_escape_music_disc": "No Escape Music Disc", "item.hadesmod.no_escape_music_disc.desc": "Darren Korb - No Escape",
   "item.hadesmod.house_of_hades_music_disc": "The House of Hades Music Disc", "item.hadesmod.house_of_hades_music_disc.desc": "Darren Korb - The House of Hades",

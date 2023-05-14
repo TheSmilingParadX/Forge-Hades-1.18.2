@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hadesmod:item/hymn_to_zagreus_music_disc"
+  }
+}

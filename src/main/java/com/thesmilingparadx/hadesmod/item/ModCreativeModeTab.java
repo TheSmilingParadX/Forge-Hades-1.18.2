@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab HADES_TAB = new CreativeModeTab("hadesmod") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.DARKNESS.get());
+            return new ItemStack(ModItems.CREATIVE_MODE_TAB_ICON.get());
         }
     };
 }

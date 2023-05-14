@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hadesmod:item/last_words_music_disc"
+  }
+}

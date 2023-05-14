@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "hadesmod:item/mouth_of_styx_music_disc"
+  }
+}

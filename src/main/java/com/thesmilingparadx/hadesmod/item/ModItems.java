@@ -1,9 +1,12 @@
 package com.thesmilingparadx.hadesmod.item;
 
 import com.thesmilingparadx.hadesmod.HadesMod;
+import com.thesmilingparadx.hadesmod.item.custom.FoodItem;
+import com.thesmilingparadx.hadesmod.item.custom.RedOnionItem;
 import com.thesmilingparadx.hadesmod.sound.ModSounds;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.RecordItem;
+import net.minecraft.world.item.SwordItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -13,11 +16,30 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, HadesMod.MOD_ID);
 
-    // Artifacts - Currency
+    /* Artifacts - Currency */
+    public static final RegistryObject<Item> CHTHONIC_KEY = ITEMS.register("chthonic_key",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HADES_TAB)));
     public static final RegistryObject<Item> DARKNESS = ITEMS.register("darkness",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HADES_TAB)));
+    public static final RegistryObject<Item> GEMSTONES = ITEMS.register("gemstones",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HADES_TAB)));
+    public static final RegistryObject<Item> NECTAR = ITEMS.register("nectar",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HADES_TAB)));
 
-    // Soundtrack
+    /* Infernal Arms */
+    public static final RegistryObject<Item> STYGIUS = ITEMS.register("stygius",
+            () -> new SwordItem(ModTiers.INFERNAL, 3, 3f,
+                    new Item.Properties().tab(ModCreativeModeTab.HADES_TAB).stacksTo(1).durability(-1)));
+
+    /* Health Items - Healing */
+    public static final RegistryObject<Item> FOOD = ITEMS.register("food",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HADES_TAB).food(ModFoods.FOOD)));
+    public static final RegistryObject<Item> RED_ONION = ITEMS.register("red_onion",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.HADES_TAB).food(ModFoods.RED_ONION)));
+
+    /* Boons */
+
+    /* Soundtrack */
     public static final RegistryObject<Item> NO_ESCAPE_MUSIC_DISC = ITEMS.register("no_escape_music_disc",
             () -> new RecordItem(4, ModSounds.NO_ESCAPE,
                     new Item.Properties().tab(ModCreativeModeTab.HADES_TAB).stacksTo(1)));
@@ -108,6 +130,10 @@ public class ModItems {
     public static final RegistryObject<Item> GOOD_RIDDANCE_MUSIC_DISC = ITEMS.register("good_riddance_music_disc",
             () -> new RecordItem(4, ModSounds.GOOD_RIDDANCE,
                     new Item.Properties().tab(ModCreativeModeTab.HADES_TAB).stacksTo(1)));
+
+    /* Creative Mode Tab Icon */
+    public static final RegistryObject<Item> CREATIVE_MODE_TAB_ICON = ITEMS.register("creative_mode_tab_icon",
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
